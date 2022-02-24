@@ -39,8 +39,11 @@
 #include "audio_hw.h"
 #include "platform.h"
 #include "platform_api.h"
+#include <sys/ioctl.h>
 #include <sys/stat.h>
 #include <stdlib.h>
+#include <unistd.h>
+#include <pthread.h>
 #include <dlfcn.h>
 #include <math.h>
 #include <cutils/properties.h>

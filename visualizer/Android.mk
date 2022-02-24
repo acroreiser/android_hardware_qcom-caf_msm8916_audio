@@ -25,6 +25,8 @@ LOCAL_SHARED_LIBRARIES := \
 	libcutils \
 	liblog \
 	libdl \
+	libutils \
+	libhardware \
 	libtinyalsa
 
 LOCAL_CFLAGS += \

@@ -43,6 +43,8 @@
 #include <system/thread_defs.h>
 #include <tinyalsa/asoundlib.h>
 #include <hardware/audio_effect.h>
+#include <pthread.h>
+#include <unistd.h>
 #include <stdlib.h>
 #include "bundle.h"
 #include "hw_accelerator.h"

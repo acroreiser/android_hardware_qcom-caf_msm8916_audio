@@ -46,7 +46,8 @@ LOCAL_SHARED_LIBRARIES := \
 	libcutils \
 	liblog \
 	libtinyalsa \
-	libdl
+	libdl \
+    libhardware
 
 LOCAL_MODULE_TAGS := optional
 
@@ -54,7 +55,7 @@ LOCAL_MODULE_RELATIVE_PATH := soundfx
 LOCAL_MODULE:= libqcompostprocbundle
 LOCAL_VENDOR_MODULE := true
 
-LOCAL_HEADER_LIBRARIES := generated_kernel_headers
+LOCAL_HEADER_LIBRARIES := generated_kernel_headers libhardware_headers libsystem_headers
 
 LOCAL_C_INCLUDES := \
 	external/tinyalsa/include \

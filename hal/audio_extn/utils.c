@@ -24,6 +24,7 @@
 #include <cutils/properties.h>
 #include <cutils/config_utils.h>
 #include <stdlib.h>
+#include <unistd.h>
 #include <dlfcn.h>
 #include <cutils/str_parms.h>
 #include <cutils/log.h>

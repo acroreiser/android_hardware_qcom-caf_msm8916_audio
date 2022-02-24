@@ -24,6 +24,7 @@
 #include <stdlib.h>
 #include <dlfcn.h>
 #include <fcntl.h>
+#include <unistd.h>
 #include <sys/ioctl.h>
 #include <cutils/log.h>
 #include <cutils/properties.h>

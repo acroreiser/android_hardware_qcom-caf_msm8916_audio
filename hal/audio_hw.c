@@ -47,6 +47,7 @@
 #include <errno.h>
 #include <pthread.h>
 #include <stdint.h>
+#include <unistd.h>
 #include <sys/time.h>
 #include <stdlib.h>
 #include <math.h>

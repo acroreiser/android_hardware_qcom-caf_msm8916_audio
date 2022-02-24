@@ -23,6 +23,7 @@
 
 #include <errno.h>
 #include <math.h>
+#include <unistd.h>
 #include <cutils/log.h>
 
 #include "audio_hw.h"

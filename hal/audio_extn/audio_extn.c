@@ -42,6 +42,7 @@
 #include <stdlib.h>
 #include <errno.h>
 #include <dlfcn.h>
+#include <pthread.h>
 #include <cutils/properties.h>
 #include <cutils/log.h>
 
